@@ -1,27 +1,49 @@
 JavaIO 总结笔记<二> 基本字节字符输入输出流和文件复制
 
 #### 一、IO体系
+
 1.流主要分两大类：字节流     字符流
+
 2.在硬盘上的文件，都是以二进制字节形式存储的，所以不管啥文件，读写时都应该用字节流
+
 3.在java的早期版本中，的确只有字节流，没有字符流
+
 4.一个数字或字母占1个字节，一个汉字占了2个字节，而字节流一次读写1个字节，很容易产生中文乱码问题
+
 5.字符流专门用来读写文本类的文件，txt   doc
+
 6.字节流适合用来读写非文本类的文件，mp3   mp4  avi  rm   rmvb  mkv   jpg  png  bmp
 
 #### 二、常用类(管道类)
+
+```markdown
 1.字节流   FileInputStream   FileOutputStream
 2.字符流   FileReader        FileWriter
+```
+
 
 #### 三、字节流的输出流   FileOutputStream
+
 1.作用  把内存中的数据输出到（写到）硬盘的某个文件中
+
 2.构造方法
+
+```markdown
 FileOutputStream(File file)     不存在会自动键
 FileOutputStream(String name)   不存在会自动键
+```
+
+
 3.功能方法
+
+```markdown
 public void write(int b)     参数是ASCII表中的码值，不是普通数字
 public void write(byte[] b)   String对象的getBytes方法有编码转换功能
 public void write(byte[] b, int off, int len)
+```
+
 4.使用字节流怎么输出一个换行？可以使用System.getProperty("line.separator")来获得当前系统的换行符。
+
 5.如何追加和覆盖？ 默认就是覆盖
 
 - 代码举例:
@@ -52,14 +74,22 @@ public void write(byte[] b, int off, int len)
 ```
 
 #### 四、字节流的输入流    FileInputStream类
+
 1.作用  把硬盘中的数据输入（读取）到内存中
+
 2.构造方法
+```markdown
 FileInputStream(File file) 
 FileInputStream(String name) 
+```
+
 3.功能方法
+```markdown
 public int read()   一次读取一个字节并返回，如果到文件最后了，返回-1
 public int read(byte[] b)    一次读取一个数组长度的数据 ，返回的是读取到的数据的长度    ,读不到数据就返回-1             
 new String(byte[] b)
+```
+
 
 - 代码举例:
 
@@ -104,8 +134,11 @@ new String(byte[] b)
 #### 五、复制文件
 
 1.复制    先读取目标文件的数据，然后再把数据写入到另一个文件中
+
 2.复制的方式
+
 	a.对于较小文件     一次性读，然后一次性写
+	
 	b.对于较大文件    边读边写   读一点，写一点，缓存的使用
 	
 - 代码举例:
@@ -163,16 +196,25 @@ new String(byte[] b)
 ```
 
 #### 六、字符流的输出流FileWriter类
+
 1.作用   把内存中的数据输出(写)到硬盘的某个文件中       **只适合文本类的文件**
+
 2.构造方法
+
+```markdown
 public FileWriter(File file)
 public FileWriter(String fileName)
 public FileWriter(File file,boolean append)
 public FileWriter(String fileName,boolean append)
+```
+
 3.功能方法
+
+```markdown
 public void write(String str)
 public void write(char[] cbuf)
 public void write(char[] b,int off, int len)
+```
 
 - 代码举例:
 ```markdown
@@ -200,13 +242,23 @@ public void write(char[] b,int off, int len)
 ```
 
 #### 七、字符流的输入流FileReader类
+
 1.作用   把硬盘中某个文件的数据输入(读取)到内存中
+
 2.构造方法
+
+```markdown
 public FileReader(File file)
 public FileReader(String fileName)
+```
+
 3.功能方法
+
+```markdown
 public int read()  一次读一个字符      读到数据返回的就是ASCII码，读不到就返回-1
 public int read(char[] cbuf)   读到数据返回的就是数据的长度，读不到就返回-1
+```
+
 
 - 代码举例:
 
@@ -257,16 +309,25 @@ public int read(char[] cbuf)   读到数据返回的就是数据的长度，读�
 ```
 
 #### 八、字符流的缓冲区
+
 1.字符流有缓冲区,字节流是没有缓冲区的
+
 2.缓冲区：它是内存中的一块区域
+
 3.作用：提高效率  减少对硬盘的频繁读写   保护硬盘
+
 4.字符流缓冲区的默认大小是8K
+
 5.当关闭管道时，会强制把缓冲区中的数据全部写到硬盘中
+
 6.public void flush()     //清缓冲区，强制写入
 
 #### 九、用字符流实现文件复制
+
 复制的方式
+
 	a.对于较小文件     一次性读，然后一次性写
+	
 	b.对于较大文件    边读边写   读一点，写一点
 	
 ```markdown

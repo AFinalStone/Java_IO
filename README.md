@@ -111,7 +111,7 @@ OutputStreamWriter
 - ObjectOutputStream（writeObject）    ObjectInputStream(readObject)
 
 
-八、装饰设计模式
+六、装饰设计模式
 
 1.现有一个类，功能较弱，在不改变源码的前提下，进行功能加强
 
@@ -119,7 +119,7 @@ OutputStreamWriter
 
 3.吃饭的案例
 
-九、字符串编码
+七、字符串编码
 
 统一先打回原形(byte[]),然后new String的时候指定编码重新组合
 
