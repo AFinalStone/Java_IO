@@ -82,7 +82,7 @@ OutputStreamWriter
 - 对象流可以直接写对象(序列化)，还可以反序列化(组装成对象)
 - ObjectOutputStream（writeObject）    ObjectInputStream(readObject)
 
-[JavaIO 总结笔记<四> 打印流、Properties类、对象流](src\com\afinalstone\object)
+[JavaIO 总结笔记<四> 打印流、Properties类、对象流、序列化](src\com\afinalstone\object)
 
 
 八、装饰设计模式
