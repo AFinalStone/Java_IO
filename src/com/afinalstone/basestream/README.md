@@ -1,3 +1,6 @@
+>[个人博客](http://blog.csdn.net/abc6368765?viewmode=contents)、[个人简书](http://www.jianshu.com/u/0e4907a8f36b)、[gitHub主页](https://github.com/AFinalStone?tab=repositories)
+
+
 JavaIO 总结笔记<二> 基本字节字符输入输出流和文件复制
 
 #### 一、IO体系
@@ -378,5 +381,5 @@ public int read(char[] cbuf)   读到数据返回的就是数据的长度，读�
 
 ```	
 
-
+项目地址：[传送门](https://github.com/AFinalStone/Java_IO)
 

@@ -5,10 +5,10 @@ import java.io.*;
 /**
  * Created by AFinalStone on 2017/6/28.
  */
-public class FileCopyDemo {
+public class IO10_FileCopyDemo {
 
-    public static String fileName_source = "src\\com\\afinalstone\\FileCopyDemo.java";
-    public static String fileName_destination = "FileCopyDemo.java";
+    public static String fileName_source = "src\\com\\afinalstone\\IO10_FileCopyDemo.java";
+    public static String fileName_destination = "IO10_FileCopyDemo.java";
 
     public static void copy01_FileIOStream() throws IOException {
         //a.对于较小文件     一次性读，然后一次性写

@@ -1,3 +1,7 @@
+>[个人博客](http://blog.csdn.net/abc6368765?viewmode=contents)、[个人简书](http://www.jianshu.com/u/0e4907a8f36b)、[gitHub主页](https://github.com/AFinalStone?tab=repositories)
+
+### JavaIO 总结笔记
+
 IO流的命名：
 
 ```markdown
@@ -15,10 +19,14 @@ InputStreamReader
 OutputStreamWriter
 ```
 
+![结构图](picture/IO结构图.jpg)
+
+![结构图总结](picture/IO结构图-总结.png)
+
 
 一、File
 
->详细描述：[JavaIO 总结笔记<一> IO简介和File文件](https://github.com/AFinalStone/Java_IO-master/src/com/afinalstone/file)
+>详细描述：[JavaIO 总结笔记<一> IO简介和File文件](src/com/afinalstone/file)
 
 1.该类既可以封装单个文件，也可以封装一个目录
 
@@ -145,4 +153,4 @@ OutputStreamWriter
 
 八、[序列化与反序列化的理解](http://blog.csdn.net/abc6368765/article/details/51365838)
 
-
+项目地址：[传送门](https://github.com/AFinalStone/Java_IO)

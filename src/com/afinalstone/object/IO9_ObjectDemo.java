@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * Created by AFinalStone on 2017/6/28.
  */
-public class ObjectDemo {
+public class IO9_ObjectDemo {
 
     private static String fileName_Object = "student";
 

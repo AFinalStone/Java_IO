@@ -8,9 +8,9 @@ import java.io.PrintWriter;
 /**
  * Created by AFinalStone on 2017/6/29.
  */
-public class PrintDemo {
+public class IO7_PrintDemo {
 
-    public static String fileName_destination = "PrintDemo.java";
+    public static String fileName_destination = "IO7_PrintDemo.java";
 
     public static void writeByPrintStream() throws IOException {
         int score = 100;

@@ -1,3 +1,5 @@
+>[个人博客](http://blog.csdn.net/abc6368765?viewmode=contents)、[个人简书](http://www.jianshu.com/u/0e4907a8f36b)、[gitHub主页](https://github.com/AFinalStone?tab=repositories)
+
 JavaIO 总结笔记<四> 打印流、Properties类、对象流、序列化
 
 一、打印流
@@ -58,7 +60,7 @@ public void println(Xxx  x)
  */
 public class PrintDemo {
 
-    public static String fileName_destination = "PrintDemo.java";
+    public static String fileName_destination = IO7_PrintDemo;
 
     public static void writeByPrintStream() throws IOException {
         int score = 100;
@@ -267,4 +269,6 @@ public class ObjectDemo {
 
 [序列化与反序列化的理解](http://blog.csdn.net/abc6368765/article/details/51365838)
 
+
+项目地址：[传送门](https://github.com/AFinalStone/Java_IO)
 

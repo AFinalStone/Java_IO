@@ -7,7 +7,7 @@ import java.util.Set;
 /**
  * Created by AFinalStone on 2017/6/29.
  */
-public class PropertiesDemo {
+public class IO8_PropertiesDemo {
 
     public static void writeProperties01() throws IOException {
         //演示Properties类   Properties = HashMap  +  IO
