@@ -15,7 +15,7 @@ OutputStreamWriter
 
 一、File
 
-- 详细描述：[JavaIO 总结笔记<一> IO简介和File文件](src/com/afinalstone/file)
+>详细描述：[JavaIO 总结笔记<一> IO简介和File文件](src/com/afinalstone/file)
 
 1.该类既可以封装单个文件，也可以封装一个目录
 
@@ -26,7 +26,7 @@ OutputStreamWriter
 
 二、基本字节流和基本字符流
 
-- 详细描述：[JavaIO 总结笔记<二> 本字节流和基本字符流和文件复制](src/com/afinalstone/basestream)
+>详细描述：[JavaIO 总结笔记<二> 本字节流和基本字符流和文件复制](src/com/afinalstone/basestream)
 
 1.字节流
 
@@ -65,7 +65,7 @@ while(true)
 
 三、缓冲流和转换流
 
-- 详细描述：[JavaIO 总结笔记<三> 缓冲流和转换流](src/com/afinalstone/buffer)
+>详细描述：[JavaIO 总结笔记<三> 缓冲流和转换流](src/com/afinalstone/buffer)
 
 1.缓冲流
 
@@ -90,7 +90,7 @@ OutputStreamWriter
 
 五、打印流、Properties类、对象流、序列化
 
-- 详细描述：[JavaIO 总结笔记<四> 打印流、Properties类、对象流、序列化](src/com/afinalstone/object)
+>详细描述：[JavaIO 总结笔记<四> 打印流、Properties类、对象流、序列化](src/com/afinalstone/object)
 
 1.打印流
 
