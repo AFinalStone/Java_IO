@@ -18,7 +18,7 @@ OutputStreamWriter
 
 一、File
 
->详细描述：[JavaIO 总结笔记<一> IO简介和File文件](src/com/afinalstone/file)
+>详细描述：[JavaIO 总结笔记<一> IO简介和File文件](https://github.com/AFinalStone/Java_IO-master/src/com/afinalstone/file)
 
 1.该类既可以封装单个文件，也可以封装一个目录
 
@@ -142,5 +142,7 @@ OutputStreamWriter
 七、字符串编码
 
 统一先打回原形(byte[]),然后new String的时候指定编码重新组合
+
+八、[序列化与反序列化的理解](http://blog.csdn.net/abc6368765/article/details/51365838)
 
 
