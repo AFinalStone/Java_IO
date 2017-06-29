@@ -15,14 +15,18 @@ OutputStreamWriter
 
 一、File
 
+- 详细描述：[JavaIO 总结笔记<一> IO简介和File文件](src/com/afinalstone/file)
+
 1.该类既可以封装单个文件，也可以封装一个目录
 
 2.exists  isFile isDirectory  getName  getPath  length list  listFiles
   createNewFile  mkdir  mkdirs  delete renameTo  
 
-详细描述：[JavaIO 总结笔记<一> IO简介和File文件](src/com/afinalstone/file)
+
 
 二、基本字节流和基本字符流
+
+- 详细描述：[JavaIO 总结笔记<二> 本字节流和基本字符流和文件复制](src/com/afinalstone/basestream)
 
 1.字节流
 
@@ -57,9 +61,11 @@ while(true)
 }
 ```
 
-详细描述：[JavaIO 总结笔记<二> 基本字节字符输入输出流和文件复制](src/com/afinalstone/basestream)
+
 
 三、缓冲流和转换流
+
+- 详细描述：[JavaIO 总结笔记<三> 缓冲流和转换流](src/com/afinalstone/buffer)
 
 1.缓冲流
 
@@ -81,10 +87,10 @@ InputStreamReader
 
 OutputStreamWriter
 
-详细描述：[JavaIO 总结笔记<三> 缓冲流和转换流](src/com/afinalstone/buffer)
 
+五、打印流、Properties类、对象流、序列化
 
-五、打印流、Properties类、对象流
+- 详细描述：[JavaIO 总结笔记<四> 打印流、Properties类、对象流、序列化](src/com/afinalstone/object)
 
 1.打印流
 
@@ -103,8 +109,6 @@ OutputStreamWriter
 - 使用其他流写对象时，只能写toString的返回值
 - 对象流可以直接写对象(序列化)，还可以反序列化(组装成对象)
 - ObjectOutputStream（writeObject）    ObjectInputStream(readObject)
-
-详细描述：[JavaIO 总结笔记<四> 打印流、Properties类、对象流、序列化](src/com/afinalstone/object)
 
 
 八、装饰设计模式
