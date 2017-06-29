@@ -1,5 +1,6 @@
 IO流的命名：
 
+```markdown
 FileInputStream
 FileOutputStream
 BufferedInputStream
@@ -12,6 +13,8 @@ BufferWriter
 
 InputStreamReader
 OutputStreamWriter
+```
+
 
 一、File
 
@@ -30,19 +33,24 @@ OutputStreamWriter
 
 1.字节流
 
+```markdown
 FileInputStream
 
 FileOutputStream
 
 read()   read(byte[] b) write(int c)   write(byte[] b)   write(byte[] b,int off,int length)
+```
+
 
 2.字符流
 
+```markdown
 FileReader
 
 FileWriter
 
 read()  read(char[] c)  write(int c)  write(char[] c)  write(char[] b,int off,int length)  write(String s)
+```
 
 3.复制
 
@@ -71,6 +79,7 @@ while(true)
 
 实际开发时如果遇到较大的文件，例如视频，就需要用到缓冲流来提高效率
 
+```markdown
 BufferedInputStream
 
 BufferedOutputStream
@@ -78,14 +87,19 @@ BufferedOutputStream
 BufferedReader    readLine()
 
 BufferWriter    newLine()
+```
+
 
 2.转换流
 
 当文件的编码跟系统默认编码不一致时，容易出现中文乱码问题，这时候就需要用到转换流
 
+```markdown
 InputStreamReader
 
 OutputStreamWriter
+```
+
 
 
 五、打印流、Properties类、对象流、序列化
@@ -95,19 +109,25 @@ OutputStreamWriter
 1.打印流
 
 - 打印流是输出流，PrintStream和PrintWriter
+
 - 可以更方便的输出各种类型的数据
+
 - print(Xxx x) println(Xxx x)
 
 2.Properties类
 
 - 什么是属性配置文件
+
 - Properties类存储数据时跟Map是一样的，但是可以结合IO流实现对属性配置文件的读写
+
 - put  setProperties  get  getProterties  list(输出流对象)  store(输出流对象，注释)  load(输入流对象)
 
 3.对象流
 
 - 使用其他流写对象时，只能写toString的返回值
+
 - 对象流可以直接写对象(序列化)，还可以反序列化(组装成对象)
+
 - ObjectOutputStream（writeObject）    ObjectInputStream(readObject)
 
 
