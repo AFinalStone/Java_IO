@@ -20,7 +20,7 @@ OutputStreamWriter
 2.exists  isFile isDirectory  getName  getPath  length list  listFiles
   createNewFile  mkdir  mkdirs  delete renameTo  
 
-[《JavaIO 总结笔记<一> IO简介和File文件》](src/com/afinalstone/file)
+详细描述：[JavaIO 总结笔记<一> IO简介和File文件](src/com/afinalstone/file)
 
 二、基本字节流和基本字符流
 
@@ -57,7 +57,7 @@ while(true)
 }
 ```
 
-[《JavaIO 总结笔记<二> 基本字节字符输入输出流和文件复制》](src/com/afinalstone/basestream)
+详细描述：[JavaIO 总结笔记<二> 基本字节字符输入输出流和文件复制](src/com/afinalstone/basestream)
 
 三、缓冲流和转换流
 
@@ -81,7 +81,7 @@ InputStreamReader
 
 OutputStreamWriter
 
-[《JavaIO 总结笔记<三> 缓冲流和转换流》](src/com/afinalstone/buffer)
+详细描述：[JavaIO 总结笔记<三> 缓冲流和转换流](src/com/afinalstone/buffer)
 
 
 五、打印流、Properties类、对象流
@@ -104,7 +104,7 @@ OutputStreamWriter
 - 对象流可以直接写对象(序列化)，还可以反序列化(组装成对象)
 - ObjectOutputStream（writeObject）    ObjectInputStream(readObject)
 
-[《JavaIO 总结笔记<四> 打印流、Properties类、对象流、序列化》](src/com/afinalstone/object)
+详细描述：[JavaIO 总结笔记<四> 打印流、Properties类、对象流、序列化](src/com/afinalstone/object)
 
 
 八、装饰设计模式
