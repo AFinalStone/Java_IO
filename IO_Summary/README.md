@@ -1,3 +1,4 @@
+>[个人博客](http://blog.csdn.net/abc6368765?viewmode=contents)、[个人简书](http://www.jianshu.com/u/0e4907a8f36b)、[gitHub主页](https://github.com/AFinalStone?tab=repositories)
 
 原文地址：http://www.cnblogs.com/xdp-gacl/p/3634409.html
 
@@ -471,3 +472,5 @@ class T implements Serializable {
    十、IO流总结
    
    ![节点流讲解](picture/024.png)  　 
+   
+   项目地址：[传送门](https://github.com/AFinalStone/Java_IO)
