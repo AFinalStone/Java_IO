@@ -2,6 +2,7 @@
 原文地址：http://www.cnblogs.com/xdp-gacl/p/3634409.html
 
 一、JAVA流式输入/输出原理
+
 　　
     ![输入/输出原理](picture/001.png)
 
@@ -31,7 +32,7 @@
    
    流里面有杂质，你要过滤它，你可以再套一层管道过滤这些杂质一样。
    
-    3.1.节点流类型
+   3.1.节点流类型
    
    ![节点流类型](picture/004.png)  　　
    
@@ -44,6 +45,7 @@
    　　处理流是包在别的流上面的流，相当于是包到别的管道上面的管道。
    
 四、InputStream(输入流)
+
    　　
    ![InputStream](picture/006.png)  　
       
@@ -56,11 +58,13 @@
     　　read()方法是一个字节一个字节地往外读，每读取一个字节，就处理一个字节。read(byte[] buffer)方法读取数据时，先把读取到的数据填满这个byte[]类型的数组buffer(buffer是内存里面的一块缓冲区)，然后再处理数组里面的数据。这就跟我们取水一样，先用一个桶去接，等桶接满水后再处理桶里面的水。如果是每读取一个字节就处理一个字节，这样子读取也太累了。
    
 五、OutputStream(输出流)
+
    　　
    ![OutputStream(输出流)](picture/008.png)  　   　　
 
    
    5.1.OutputStream的基本方法
+   
    
    ![OutputStream的基本方法](picture/009.png)  　   　　
    
