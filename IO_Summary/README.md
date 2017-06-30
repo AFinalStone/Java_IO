@@ -1,3 +1,6 @@
+
+原文地址：http://www.cnblogs.com/xdp-gacl/p/3634409.html
+
 一、JAVA流式输入/输出原理
 　　
     ![输入/输出原理](picture/001.png)
